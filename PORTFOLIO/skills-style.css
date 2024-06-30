@@ -1,0 +1,116 @@
+
+       
+		body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #35482a;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation styles */
+nav {
+	position: fixed; 
+    top: 0;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #35482a;
+}
+.logo a: hover{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+	background-color: #35482a
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+	color: #35482a;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #35482a;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+	color:#ffffff;
+    background-color: #35482a;
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #35482a;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #35482a;
+        }
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background-color: #ffffff;
+			
+            color: #000000;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+			border: #35482a;
+            transition: background-color 0.3s ease;
+        }
+        .skills li:hover {
+			color: #FFFFFF;
+            background-color: #35482a;
+        }
+		
+		
+		/* Responsive styles */
+@media (max-width: 768px) {
+    .section__container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .title {
+        font-size: 36px;
+    }
+}
